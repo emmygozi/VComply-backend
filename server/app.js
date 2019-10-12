@@ -4,7 +4,6 @@ import logger from 'morgan';
 import { config } from 'dotenv';
 import bodyParser from 'body-parser';
 
-
 const debugged = debug('app');
 config();
 
